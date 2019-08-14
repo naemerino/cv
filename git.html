@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Git commands</title>
+</head>
+
+<body>
+  <h1>Usefuly GIT commands</h1>
+  <ul>
+    <li>git init // initialize git creating a repository, make sure that you are in the project directory</li>
+    <li>git status // shows wich files are commited in the modify status</li>
+    <li>git add "file name" moves the file into the stage area</li>
+    <li>git rm --cached "file name" we remove the file from the stage area</li>
+    <li>git add . // moves all the project into the staging area</li>
+    <li>git commit -m "description" // move the files from commit to commited (master branch)</li>
+    <li>git log // shows all the commits that you did and when you did those changes</li>
+    <li>git log --oneline // show the commits that you did in one line with the id of the commit</li>
+    <li>git checkout "id commit"// shows the code of what you had in that commit</li>
+    <li>git checkout master // shows the code of what you had in the master branch</li>
+    <li>git revert "id commit" // create a new commit with the reverted changes</li>
+    <li>git reset "id commit" // removes all the commits did at that time</li>
+    <li>git reset "id commit" --hard // removes for ever the commit doing at that time</li>
+    <li>git pull // Download the changes of the differents branches</li>
+  </ul>
+  <h2>How to interact in bitbucket </h2>
+  <ul>
+    <li>Create an account in: <a href="https://bitbucket.org/">Bitbucket</a></li>
+    <li>Create a repository</li>
+    <li>In the bitbucket page, clone your repository</li>
+  </ul>
+  <h3>After that, follow the steps in CMD</h3>
+  <ol>
+    <li>make sure that in CMD you are in the correct path</li>
+    <li>git clone "url of your cloned repository" // clones a project into you local machine
+    <li>In windows moves the files from the cloned folder into the project</li>
+    <li>git add . // moves all the project into the staging area</li>
+    <li>git status // shows wich files are commited in the modify status</li>
+    <li>git commit -m "description" // move the files from commit to commited (master branch)</li>
+    <li>git status // shows that you have everithing cloned</li>
+    <li>git push origin master //push you project into yoy online repository</li>
+    <li>git pull origin master //Download the changes of you repository</li>
+  </ol>
+
+</body>
+
+</html>
